@@ -1,3 +1,3 @@
 # JuliaCourseNotebooks
 
-Jupyter noteboeeks for the Julia Scientific Prograaming course on Coursera
+Jupyter notebooks for the Julia Scientific Programming course on Coursera

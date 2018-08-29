@@ -8,4 +8,4 @@ The recently released version 1.0 of Julia marked a milestone in the development
 
 When creating a new file, save it first, explicitely using the .jl extension.  This will tell Atom to use the Julia interface.  Have a look at some of the new .jl files added to this repository.
 
-Julia Computing ( https://www.juliacomputing.com ) releases of Julia contains the Juno interface.  We will let you know when this release goes live.
+Julia Computing ( https://www.juliacomputing.com ) releases of Julia contains the Juno interface.  We will let you know when the 1.0 release goes live.

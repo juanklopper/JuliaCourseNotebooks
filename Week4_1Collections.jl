@@ -10,6 +10,7 @@
 
 # *  Arrays are collections of values separated with commas and
 #     them inside of square brackets
+# * They are represented in column or in row form
 
 # 1 Like a column vector (click on the downward arrow)
 array1 = [1, 2, 3]
@@ -19,15 +20,16 @@ typeof(array1)
 array2 = [1 2 3]
 typeof(array2)
 
-# 3 Like a row vector (click on the downward arrow)
+# 3 The transpose converts betwee the two
 transpose(array1)
-#Alternative notation
+#The apostrophe is an alternative notation
 array1'
 
-# 4 Boolean question (==)
+# 4 Boolean logic (==)
 transpose(array1) == array1'
 
 # 5 Data type inheritance
+#With a mix of types, all the elements inherent the "highest" type
 array2 = [1, 2, 3.0]
 #Index for one of the original integers will be Float64
 array2[1]
@@ -59,7 +61,7 @@ repeat([1, 2], 3)
 range(1, step = 1, length = 10)
 typeof(range(1, step = 1, length = 10))
 
-# 13 Create collection
+# 13 Create collections usin gthe collect() function
 collect(range(1, step = 1, length = 10))
 #Short-hand
 collect(1:10)
@@ -226,6 +228,8 @@ procedure_dict = Dict{AbstractString,AbstractString}()
 for (s, n) in enumerate(procedure_vals)
     procedure_dict["x_$(s)"] = n
 end
+#Procedure_dict is now a dictionary
+procedure_dict
 
 # 9 Iterating through a dictionary by key and value
 for (k, v) in procedure_dict
